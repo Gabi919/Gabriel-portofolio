@@ -10,7 +10,7 @@ import Index from "./pages/Index";
 const App = () => (
   <TooltipProvider>
     <Toaster />
-    <BrowserRouter>
+    <BrowserRouter basename="/Gabriel-portofolio">
       <Routes>
         <Route path="/" element={<Index />} />
       </Routes>

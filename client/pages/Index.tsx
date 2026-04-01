@@ -254,7 +254,7 @@ export default function Index() {
 
             <div className="flex flex-col sm:flex-row gap-4">
              <a 
-                href="/RoșuDaniel-GabrielCV.pdf" 
+                href={`${import.meta.env.BASE_URL}RoșuDaniel-GabrielCV.pdf`} 
                 download="RoșuDaniel-GabrielCV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -430,7 +430,7 @@ export default function Index() {
                 {/* Header Image/Icon */}
                 <div className="h-40 overflow-hidden shrink-0 border-b border-border">
                   <img
-                    src={project.image}
+                    src={`${import.meta.env.BASE_URL}${project.image.startsWith('/') ? project.image.slice(1) : project.image}`}
                     alt={`Screenshot of ${project.title} project`}
                     className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                     loading="lazy"

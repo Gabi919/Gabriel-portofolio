@@ -12,7 +12,7 @@ export default defineConfig({
     outDir: "dist",
   },
   plugins: [react()],
-  base: "/Gabriel-portofolio",
+  base: "/Gabriel-portofolio/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./client"),
