@@ -254,7 +254,7 @@ export default function Index() {
 
             <div className="flex flex-col sm:flex-row gap-4">
              <a 
-                href={`${import.meta.env.BASE_URL}RoșuDaniel-GabrielCV.pdf`} 
+                href={`${import.meta.env.BASE_URL}RoșuDaniel-GabrielCV.pdf`}
                 download="RoșuDaniel-GabrielCV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
